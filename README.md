@@ -7,7 +7,7 @@ The dataset used is https://www.kaggle.com/datasets/fedesoriano/air-quality-data
 Preprocessing: The dataset contains the responses of a gas multisensor device deployed on the field in an Italian city. Hourly responses averages are recorded along with gas concentrations references from a certified analyzer. It contains 9357 instances of hourly averaged responses from an array of 5 metal oxide chemical sensors embedded in an Air Quality Chemical Multisensor Device.
 To calculate the AQI from these readings, each reading has been classified into the appropiate AQI values. The overall AQI is calculated as  the maximum of these 4 AQI values. 
 
-Naive Bayes:  47.38% accuracy
+Naive Bayes:  47.82% accuracy
 KNN: 43.40% accuracy
-Random Forest :67.84% accuracy
-ANN : 
+Random Forest :67.20% accuracy
+ANN : 38.66% accuracy
